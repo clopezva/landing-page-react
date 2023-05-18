@@ -1,0 +1,134 @@
+
+/* -------------------------------------------------------------------------- */
+/*                                  GLOBALES                                  */
+/* -------------------------------------------------------------------------- */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   NAVBAR                                   */
+/* -------------------------------------------------------------------------- */
+.navbar{
+  background-color: #aa94e6;
+  font-weight: bold;
+  
+}
+
+.nav-bar{
+  padding: .8rem;
+}
+
+.nav-link{
+  font-size: 1.2em;
+  color: #333367;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    HERO                                    */
+/* -------------------------------------------------------------------------- */
+.hero-section {
+  position: relative;
+}
+
+.hero-image {
+  background-image: url(https://images.unsplash.com/photo-1472387040940-3ae0cdbf127d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2009&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333367;
+  margin-bottom: 0;
+}
+
+.hero-content p {
+  font-size: 28px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    CARD                                    */
+/* -------------------------------------------------------------------------- */
+
+.card-container{
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  color: #3d2b39;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #000;
+  height: 100px;
+  text-align: justify;
+}
+
+
+.btn{
+  background-color: rgb(194 162 225);
+  border: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+
+footer{
+  background-color: rgb(194 162 225);
+}
+.call-to-action{
+  font-size: 20px;
+}
+
+.footer-btn{
+  background-color: #fff;
+  color: #333367;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+/* -------------------------------------------------------------------------- */
+/*                                 RESPONSIVE                                 */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 680px){
+  .card-container{
+    flex-direction: column;
+  }
+  .hero-content h1{
+    font-size: 40px;
+  }
+  .hero-content p{
+    font-size: 20px;
+  }
+  
+}
+
